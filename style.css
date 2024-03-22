@@ -62,3 +62,18 @@ input[type="text"] {
     margin-top: 10px;
 }
 
+#custom-navbar .navbar {
+    background-color: #f9fd846b;
+    padding: 20px;
+}
+
+#custom-navbar .navbar-brand,
+#custom-navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+#custom-navbar .navbar-toggler-icon {
+    background-color: white;
+}
+
+

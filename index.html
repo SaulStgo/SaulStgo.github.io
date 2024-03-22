@@ -1,82 +1,135 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Personal Page</h1>
-    </header>
-    <main>
-        <section id="information">
-            <h2>Information about me</h2>
-            <p>Name: Saul</p>
-            <p>Major: Engineer</p>
-            <p>Year of University Enrollment: 2020</p>
-            <p><a href="https://github.com/SaulStgo/SaulStgo.github.io">GitHub</a></p>
-            <p>Personal summary: Industrial Civil Engineer, researches, designs, analyzes and evaluates processes and products, empathetic, proactive, manages goods, services and personnel, masters various software, ability to work by integrating teams and directing them, plans, directs and executes progress plans achieving objectives , rigorously trained in economics and finance.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <table>
-                <tr>
-                    <th>skill</th>
-                    <th>level</th>
-                </tr>
-                
-                <tr>
-                    <td>Python</td>
-                    <td>Expert</td>
-                </tr>
-                
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Medium</td>
-                </tr>
-            
-                <tr>
-                    <td>HTML/CSS</td>
-                    <td>Noob</td>
-                </tr>
+    <div class="container">
+        <header class="bg-warning py-4">
+            <h1 class="text-center">Personal Page</h1>
+        </header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Social networks</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/SaulStgo/SaulStgo.github.io">GitHub</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/saul_santiago.3/">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-                <tr>
-                    <td>Git</td>
-                    <td>Expert</td>
-                </tr>
+        <main class="py-4">
+            <section id="information">
+                <h2>Information about me</h2>
+                <p>Name: Saul</p>
+                <p>Major: Engineer</p>
+                <p>Year of University Enrollment: 2020</p>
+                <p>Personal summary: Industrial Civil Engineer, researches, designs, analyzes and evaluates processes and products, empathetic, proactive, manages goods, services and personnel, masters various software, ability to work by integrating teams and directing them, plans, directs and executes progress plans achieving objectives , rigorously trained in economics and finance.</p>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <table class="table">
+                    <thead class="thead-light">
+                        <tr>
+                            <th>skill</th>
+                            <th>level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Python</td>
+                            <td>Expert</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>HTML/CSS</td>
+                            <td>Noob</td>
+                        </tr>
+                        <tr>
+                            <td>Git</td>
+                            <td>Expert</td>
+                        </tr>
+                        <tr>
+                            <td>Excel</td>
+                            <td>Expert</td>
+                        </tr>
+                        <tr>
+                            <td>SQL</td>
+                            <td>Noob</td>
+                        </tr>
+                        <tr>
+                            <td>Rubí</td>
+                            <td>Noob</td>
+                        </tr>
+                        <tr>
+                            <td>Inglés</td>
+                            <td>Medium</td>
+                        </tr>
+                        <tr>
+                            <td>Spanish</td>
+                            <td>Nativo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section id="biography" class="bg-light p-4 mt-4">
+                <h2>Biography</h2>
+                <p>I consider myself a simple person with a global vision of the world. Lover of music, engineering and supporting those who need it. I manage to combine these three passions by channeling them into the study of the violin and engineering. In addition to helping in hospitals with limited resources.</p>
+            </section>
+            <section id="projects" class="mt-4">
+                <h2>Projects</h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="IM1.PNG" class="card-img-top" alt="Hobby">
+                        <div class="card-body">
+                            <h5 class="card-title">Hobby</h5>
+                            <p class="card-text">Musician</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="IM2.JPG" class="card-img-top" alt="Career">
+                        <div class="card-body">
+                            <h5 class="card-title">Career</h5>
+                            <p class="card-text">Engineer</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="IM4.PNG" class="card-img-top" alt="Social help">
+                        <div class="card-body">
+                            <h5 class="card-title">Social help</h5>
+                            <p class="card-text">Assistance nurse</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="bg-warning py-2 text-white text-center">
+            <button id="Change" class="btn btn-success">Click here to make the page speak</button>
+            <input type="text" id="text view" class="form-control mt-2">
+        </footer>
+    </div>
 
-                <tr>
-                    <td>Excel</td>
-                    <td>Expert</td>
-                </tr>
-
-                <tr>
-                    <td>SQL</td>
-                    <td>Noob</td>
-                </tr>
-
-                <tr>
-                    <td>Rubí</td>
-                    <td>Noob</td>
-                </tr>
-
-                <tr>
-                    <td>Inglés</td>
-                    <td>Medium</td>
-                </tr>
-                
-                <tr>
-                    <td>Spanish</td>
-                    <td>Nativo</td>
-                </tr>
-            </table>
-        </section>
-    </main>
-    <footer>
-        <button id="Change">Click here to make the page speak</button>
-        <input type="text" id="text view">
-    </footer>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
